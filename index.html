@@ -7,13 +7,14 @@
 </head>
 <body>
     <div class="container">
-        <div id="game-board">
+        <div id="game-board" style="width: 1000px;"> <!-- Definindo a largura do tabuleiro -->
             <div id="finish-line"></div> <!-- Linha de chegada -->
         </div>
         <div id="level-buttons"></div>
         <div id="balance">Balance: R$<span id="balance-value">100</span></div>
         <div id="bet-input">
-            <input type="number" id="bet-amount" min="5" placeholder="5">
+            <input type="number" id="bet-amount" placeholder="Minimum value: 5">
+            
             <select id="driver-select">
                 <option value="1">Driver 1</option>
                 <option value="2">Driver 2</option>

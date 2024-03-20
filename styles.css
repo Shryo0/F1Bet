@@ -1,0 +1,33 @@
+.car {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    margin: 5px;
+    /* align-self: left;
+    display: left; */
+    cursor: pointer;
+}
+.container {
+    text-align: center;
+    background-color: bisque;
+}
+.finish{
+    background-color: blueviolet;
+    align-content: flex-end;
+}
+#level-buttons {
+    margin-top: 20px;
+}
+#balance {
+    margin-top: 20px;
+}
+#bet-input {
+    margin-top: 20px;
+}
+#finish-line {
+    width: 5px;
+    height: 520px;
+    background-color: red; /* Cor da linha de chegada */
+    position: absolute;
+    transform: translate(900px);/* Posição da linha de chegada */
+}
